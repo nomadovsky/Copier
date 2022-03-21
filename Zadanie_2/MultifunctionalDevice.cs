@@ -14,8 +14,7 @@ namespace Zadanie_2
             {
                 DateTime date = DateTime.Now;
                 string scanName = $"ImageScan{ScanCounter}.jpg";
-                Console.WriteLine($"{date} Scan: {scanName}");
-                Console.WriteLine($"{date} Print: {scanName}");
+                Console.WriteLine($"{date} Sent Fax: {scanName}");
 
 
                 FaxCounter++;
